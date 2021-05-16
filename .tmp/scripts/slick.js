@@ -2679,4 +2679,3 @@
     return _;
   };
 });
-//# sourceMappingURL=slick.js.map
