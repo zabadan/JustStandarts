@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".standarts_mainblock-content").slick({infinite:!0,slidesToShow:2,slidesToScroll:1})});

@@ -16,8 +16,8 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <header>
-      <div class="logo">
-        <img src="images/SVG/Ресурс 3.svg" alt="">
+      <div class="logo mainLogo">
+        <img src="images/logo.svg" alt="">
       </div>
     </header>
     <main class="container">
@@ -28,7 +28,7 @@
 					<p> Скачай стандарти!</p>
           </h1>
           <div class="standarts_video">
-            <img src="images/1x/video.png" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3v6JkrL-E-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <div class="standarts_bottom">
@@ -53,6 +53,24 @@
             </ul>
          </div>
         </div>
+        <div class="standarts_download">
+          <h2 class="standarts_download-title">
+            Завантажуй Стандарти у зручному форматі
+          </h2>
+          <div class="standarts_download-links">
+              <a href="#" class="standarts_download-link">
+                <img src="images/pdf.svg" alt="">
+              </a>
+              <a href="#" class="standarts_download-link">
+                <img src="images/google.svg" alt="">
+              </a>
+              <a href="#" class="standarts_download-link">
+                <img src="images/apple.svg" alt="">
+              </a>
+          </div>
+        </div>
+
+
         <div class="standarts_mainblock">
           <h3 class="standarts_mainblock-title">
             Як це працює на практиці?
@@ -252,7 +270,7 @@
             
           </div>
           
-            <div class="standarts_callback">
+            <div class="standarts_callback container">
             <div class="standarts_callback-btn">
               <a href="#">Зворотній зв’язок</a>
             </div>
@@ -266,6 +284,42 @@
         
       </div>
     </main>
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="footer_block">
+          <div class="footer_block-logo logo">
+            <img src="images/logo-4.svg" alt="">
+          </div>
+          <p class="footer_block-text">
+            Авторський колектив
+          </p>
+        </div>
+        <div class="footer_block">
+          <p class="footer_block-text">
+            Професійна дискусія про кримінальну юстицію
+          </p>
+          <div class="footer_block-logo logo">
+            <img src="images/logo-2.svg" alt="">
+          </div>
+        </div>
+        <div class="footer_block">
+          <p class="footer_block-text">
+            Програма вдосконалення та професійного росту
+          </p>
+          <div class="footer_block-logo logo">
+            <img src="images/logo-3.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="notation">
+        <p class="year">
+          © 2021 рік.
+        </p>
+        <p class="supp">
+          За підтримки Міжнародного фонду «Відродження»
+        </p>
+      </div>
+    </footer>
     
   
     <!-- build:js scripts/vendor.js -->
@@ -276,7 +330,7 @@
     <!-- <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
     <!-- endbuild -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/slick.js"></script>
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
