@@ -1,13 +1,9 @@
 $(document).ready(function () {
   $('.standarts_mainblock-content').slick({
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [{
-      breakpoint: 577,
-      settings: {
-        slidesToShow: 1
-      }
-    }]
+    speed: 800,
+    adaptiveHeight: true
   });
 });
