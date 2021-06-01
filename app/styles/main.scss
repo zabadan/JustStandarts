@@ -383,6 +383,9 @@ iframe {
       @media (max-width: 1300px) {
         width: 500px;
       }
+      @media (max-width: 576px) {
+        width: 90vw;
+      }
       &-btn {
         background-color: #395382;
         padding: 30px 100px;
@@ -414,9 +417,9 @@ iframe {
       &-text {
         font-weight: 400;
         font-size: 22px;
-        color: #fff;
+        // color: #fff;
         margin: 0 auto 90px;
-        padding-bottom: 90px;
+        // padding-bottom: 90px;
         @media (max-width: 1300px) {
           font-size: 20px;
         }
@@ -477,16 +480,24 @@ iframe {
 
     &-logo{
       img{
-        max-width: 320px;
-        max-height: 91px;
+        width: 300px;
+        height: auto;
+        
         @media(max-width: 1000px){
-          max-height: 63px;
+          height: 63px;
+          width: auto;
         }
         @media(max-width: 768px){
-          max-height: 45px;
+          height: 45px;
         }
         @media(max-width: 576px){
-          max-height: 70px;
+          height: 70px;
+        }
+      }
+      &_standarts{
+        img{
+
+          width: 350px;
         }
       }
     }
@@ -560,6 +571,12 @@ iframe {
     width: 50px;
     height: 30px;
     z-index: 10;
+    @media (max-width: 576px) {
+      display: none;
+    }
+    @media (max-width: 320px) {
+      display: none;
+    }
   }
 }
 
